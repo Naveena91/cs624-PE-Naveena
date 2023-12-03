@@ -1,10 +1,10 @@
 INPUT:
-  Created Bottom Tab Navigator and added Screens to the Cities App.Four tabs such as,Add City,Cities, AddCountry and Countries. When clicked on AddCountry tab we need to enter the "Country Name" and "Currency" in a designated input field. Countries screen will show the added Country Name and Curreny.
+   Will create screen by adding stack-based navigators to the “CountriesNav” tab.In the “CountriesNav” tab, it will show the countries list and their currencies used or not used in the country like Cities and City, it will show a stack-based navigation between Countries and Country. All styles are customized for Countries, Country, and Currency.
 
 PROCESS:
-   It takes the entered "Country Name" and "Currency" and processes this information. It may involve tasks like data validation (ensuring the inputs are in the correct format), checking for duplicates, etc. If the input is valid, the system adds this new country and its currency to the list of countries. The system retrieves the list of countries and currencies that have been added using the "AddCountry" tab. The reusable CenterMessage component displays a message "No saved Countries" centered within the display. Created the AddCountry component that will allow to add new countries to the countryies array. This component will contain a form with two text inputs: one to hold the country name and one to hold the currency. Countries.js displays a list of countries that have been added to the application.import the CenterMessage component. React Navigation has a way to control certain options around the navigation within a route
+   Implemened Stack Navigator for creating a Stack Navigator to the "CountriesNav" tab. Created a new Stack Navigator for handling navigation between Countries and Country screens.Developed a screen under "CountriesNav" tab to display a list of countries.Customized styles for the Countries screen.Implemented navigation to show details of a specific country when selected.Designed a screen for displaying individual country details.
+Customized styles for the Country screen.Displayed the currencies used or not used in each country.Ensured proper styling for the Currency information.Implemented stack-based navigation between the Countries screen and the individual Country screen. Allowed users to navigate back from the Country screen to the Countries screen.Ensured that all styles, including those for Countries, Country, and Currency, are customized as per the requirements.
 
 OUTPUT:
-  Displays the Countries tab to show the added Countries list and their currency.Displays the entire list of countries and currencies added using AddCountry tab
-
-
+   The "CountriesNav" tab now includes stack-based navigators with custom-designed screens for displaying countries and individual country details.User can navigate between the Countries and Country screens seamlessly.
+The styles for Countries, Country, and Currency are customized according to the specifications.
